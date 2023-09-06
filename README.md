@@ -1,4 +1,7 @@
-# AM Portfolio Next.js, React & TailwindCSS Portfolio Project
+# AM Portfolio 
+
+Made with Next.js, React & TailwindCSS
+
 
 ### License
 

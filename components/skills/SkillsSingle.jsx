@@ -5,7 +5,7 @@ import { Tooltip } from "@material-tailwind/react";
 function SkillsSingle({ title, image }) {
 	return (
 		<div className="py-5 px-5 border bg-secondary-light border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg">
-			<Tooltip content={title} placement="bottom" className="bg-ternary-dark text-ternary-light dark:bg-[#f0f0f0] dark:text-ternary-dark">
+			<Tooltip content={title} placement="bottom" className="bg-ternary-dark text-ternary-light dark:bg-card-light dark:text-ternary-dark">
 				<a>
 					<Image
 						src={image}

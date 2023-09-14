@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import ShowMore from './ShowMore';
 import ImageCarousel from '../reusable/Carousel'
 import Tags from '../reusable/Tags';
-import { Button } from '@material-tailwind/react';
 
 const ProjectSingle = (props) => {
 

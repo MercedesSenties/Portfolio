@@ -15,8 +15,8 @@ const ShowMore = ({ role, timeline, teamList, did, url, buttonTitle }) => {
         <Fragment>
             <Button onClick={toggleOpen} 
             className="font-general-bold text-ternary-dark dark:text-ternary-light 
-            bg-ternary-light dark:bg-[#22486a] rounded-lg mt-4 hover:scale-110
-            border-2 border-[#22486a] dark:border-[#f3f7fc]">
+            bg-ternary-light dark:bg-card-dark rounded-lg mt-4 hover:scale-110
+            border-2 border-card-dark dark:border-card-light">
                 <div className="flex flex-row">
                     <p>Show more</p>
                     <SlArrowDown 
@@ -26,8 +26,8 @@ const ShowMore = ({ role, timeline, teamList, did, url, buttonTitle }) => {
                 </div>
             </Button>
             <Collapse open={open}>
-                <Card className="my-2 bg-[#f3f7fc] dark:bg-[#22486a]">
-                    <CardBody className="divide-y dark:divide-[#1e3851]">
+                <Card className="my-2 bg-card-light dark:bg-card-dark">
+                    <CardBody className="divide-y dark:divide-divider-dark">
                         <MoreInfoSection title="Duration:" body={timeline}></MoreInfoSection>
                         <MoreInfoSection title="Role:" body={role}></MoreInfoSection>
                         <MoreInfoSectionList title="Contributions:" bulletpoints={did} info='ch'></MoreInfoSectionList>

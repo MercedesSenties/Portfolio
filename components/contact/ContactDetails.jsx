@@ -31,7 +31,7 @@ function ContactDetails() {
 			</div>
 			<div className="flex flex-col justify-center gap-10 lg:flex-row py-5 lg:py-10 lg:mt-5 text-primary-dark dark:text-primary-light">
 
-				<div className="text-center sm:text-justify">
+				<div className="text-center sm:text-justify self-center">
 					<h2 className="font-general-medium text-xl mb-2 sm:text-2xl">
 						I{"\'"}d love to get in touch!
 					</h2>
@@ -39,7 +39,7 @@ function ContactDetails() {
 						Feel free to send me a message on LinkedIn, or reach out over email.
 					</p>
 				</div>
-				<ul>
+				<ul className='self-center'>
 					{contacts.map((contact) => (
 						<a
 							href={contact.url}

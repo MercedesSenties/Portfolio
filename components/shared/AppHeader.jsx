@@ -53,7 +53,7 @@ function AppHeader() {
 									className="w-30 cursor-pointer"
 									alt="Dark Logo"
 									width={80}
-									height={80}
+									height='auto'
 								/>
 							) : (
 								<Image
@@ -87,18 +87,12 @@ function AppHeader() {
 							type="button"
 							className="focus:outline-none"
 							aria-label="Hamburger Menu"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								className="h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light"
-							>
-								{showMenu ? (
-									<FiX className="text-3xl" />
-								) : (
-									<FiMenu className="text-3xl" />
-								)}
-							</svg>
+						>	
+							{showMenu ? (
+								<FiX className="text-3xl text-secondary-dark dark:text-ternary-light" />
+							) : (
+								<FiMenu className="text-3xl text-secondary-dark dark:text-ternary-light" />
+							)}
 						</button>
 					</div>
 				</div>
@@ -158,7 +152,7 @@ function AppHeader() {
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
-						className="ml-8 bg-[#fdfdfd] dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="ml-8 bg-card-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
 						{activeTheme === 'dark' ? (
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />

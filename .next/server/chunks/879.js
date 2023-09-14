@@ -67,7 +67,7 @@ function PagesMetaHead({ title, keywords, description }) {
 PagesMetaHead.defaultProps = {
     title: "AM Portfolio",
     keywords: "next.js, react, web, ui, portfolio",
-    keywords: "programmer and social media manager"
+    keywords: "programmer and community manager"
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PagesMetaHead);
 
@@ -224,7 +224,7 @@ function AppHeader() {
                                     className: "w-30 cursor-pointer",
                                     alt: "Dark Logo",
                                     width: 80,
-                                    height: 80
+                                    height: "auto"
                                 }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                     src: _public_images_logo_light_svg__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z,
                                     className: "w-30 cursor-pointer",
@@ -251,15 +251,10 @@ function AppHeader() {
                                 type: "button",
                                 className: "focus:outline-none",
                                 "aria-label": "Hamburger Menu",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    viewBox: "0 0 24 24",
-                                    className: "h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light",
-                                    children: showMenu ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiX, {
-                                        className: "text-3xl"
-                                    }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiMenu, {
-                                        className: "text-3xl"
-                                    })
+                                children: showMenu ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiX, {
+                                    className: "text-3xl text-secondary-dark dark:text-ternary-light"
+                                }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiMenu, {
+                                    className: "text-3xl text-secondary-dark dark:text-ternary-light"
                                 })
                             })
                         })
@@ -328,7 +323,7 @@ function AppHeader() {
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         onClick: ()=>setTheme(activeTheme),
                         "aria-label": "Theme Switcher",
-                        className: "ml-8 bg-[#fdfdfd] dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer",
+                        className: "ml-8 bg-card-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer",
                         children: activeTheme === "dark" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiMoon, {
                             className: "text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl"
                         }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiSun, {

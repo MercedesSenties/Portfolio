@@ -19,7 +19,7 @@ function PagesMetaHead({ title, keywords, description }) {
 PagesMetaHead.defaultProps = {
 	title: 'AM Portfolio',
 	keywords: 'next.js, react, web, ui, portfolio',
-	keywords: 'programmer and social media manager',
+	keywords: 'programmer and community manager',
 };
 
 export default PagesMetaHead;

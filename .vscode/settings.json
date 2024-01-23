@@ -1,7 +1,7 @@
 {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.sortImports": true
+      "source.sortImports": "explicit"
     },
     "editor.linkedEditing": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",

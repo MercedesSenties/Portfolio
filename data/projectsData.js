@@ -101,54 +101,6 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Roller Crashers",
-    tags: ["C#", "Unity", "Local Multiplayer", "Game dev"],
-    description:
-      "A 3D isometric, local 4 player, free-for-all, PVP, roller skating, beat em up game. Score Points to win the Roller Crown!",
-    img: [
-      { src: "/images/projects/roller-crashers3.png", type: "image" },
-      { src: "/images/projects/roller-crashers1.png", type: "image" },
-      { src: "/images/projects/roller-crashers2.png", type: "image" },
-      { src: "/images/projects/roller-crashers4.png", type: "image" },
-    ],
-    width: "780",
-    height: "00",
-    buttonTitle: "Try the game",
-    buttonUrl: "https://k3baus.itch.io/roller-crashers",
-    role: "Programmer",
-    timeline: "January 2023 - March 2023",
-    teamList: [
-      {
-        name: "Pablo Moctezuma",
-        role: "PM & Level Designer",
-        src: "https://www.linkedin.com/in/pablo-moctezuma/",
-      },
-      {
-        name: "Kiyaan Merali",
-        role: "Artist",
-        src: "https://www.linkedin.com/in/kiyaanmerali/",
-      },
-      {
-        name: "Sam Loup",
-        role: "Programmer",
-        src: "https://www.linkedin.com/in/sam-loup/",
-      },
-      { name: "Noble Alexander", role: "Level Designer", src: "" },
-    ],
-    did: [
-      {
-        ch: "Implemented the attacking system allowing players to punch other players by having the hit boxes grow depending on their speed",
-      },
-      {
-        ch: "Implemented power-ups within the game that allowed the player to gain different abilities which make the game more dynamic",
-      },
-      {
-        ch: "Implemented the scoring system which allowed a winner at the end, encouraging the competitiveness of the game",
-      },
-    ],
-  },
-  {
-    id: 4,
     title: "frecuenciaPM",
     tags: [
       "HTML",
@@ -161,17 +113,17 @@ export const projectsData = [
       "Facebook",
     ],
     description:
-      "Digital agency in charge of the management of social media accounts and the development of websites",
+      "Digital agency in charge of web development and social media management",
     img: [
+      { src: "6z3qx0dDG7M", type: "video" },
       { src: "/images/projects/fpm-2.png", type: "image" },
       { src: "/images/projects/fpm-3.png", type: "image" },
-      { src: "6z3qx0dDG7M", type: "video" },
     ],
     width: "600",
     height: "600",
     buttonTitle: "",
     buttonUrl: "",
-    role: "Co-founder, community manager, content creator & web developer",
+    role: "Co-founder, web developer, community manager & content creator",
     timeline: "2019 - 2022",
     teamList: [
       {
@@ -182,15 +134,15 @@ export const projectsData = [
     ],
     did: [
       {
+        ch: "Developed websites with the help of tools such as Wordpress, Shopify, etc",
+      },
+      {
         ch: "Designed specific product content for each social media and account",
       },
       {
         ch: "Managed the interaction with the public for all social media accounts",
       },
       { ch: "Made product photoshoots for social media content" },
-      {
-        ch: "Developed websites with the help of tools such as Wordpress, Shopify, etc",
-      },
     ],
   },
 ];

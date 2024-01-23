@@ -6,6 +6,7 @@ import CPP from "../public/images/skills/c++.png";
 import CSharp from "../public/images/skills/c-sharp.png";
 import GA from "../public/images/skills/google-analytics.png";
 import JS from "../public/images/skills/javascript.png";
+import React from "../public/images/skills/react.png";
 import Shopify from "../public/images/skills/shopify.png";
 import Swift from "../public/images/skills/swift.png";
 import Unity from "../public/images/skills/unity.png";
@@ -15,8 +16,23 @@ import WP from "../public/images/skills/wordpress.png";
 export const skillsData = [
   {
     id: uuidv4(),
+    title: "JavaScript",
+    img: JS,
+  },
+  {
+    id: uuidv4(),
     title: "C#",
     img: CSharp,
+  },
+  {
+    id: uuidv4(),
+    title: "Wordpress",
+    img: WP,
+  },
+  {
+    id: uuidv4(),
+    title: "React",
+    img: React,
   },
   {
     id: uuidv4(),
@@ -25,23 +41,8 @@ export const skillsData = [
   },
   {
     id: uuidv4(),
-    title: "JavaScript",
-    img: JS,
-  },
-  {
-    id: uuidv4(),
-    title: "C++",
-    img: CPP,
-  },
-  {
-    id: uuidv4(),
     title: "Unity",
     img: Unity,
-  },
-  {
-    id: uuidv4(),
-    title: "Wordpress",
-    img: WP,
   },
   {
     id: uuidv4(),
